@@ -1,1833 +1,453 @@
-html {
-  scroll-behavior: smooth;
-}
-
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  undefined: undefined;
-  border-width: 0;
-  border-style: solid;
-  border-color: #e5e7eb;
-}
-
-html,
-:host {
-  line-height: 1.5;
-  undefined: undefined;
-  -webkit-text-size-adjust: 100%;
-  -moz-tab-size: 4;
-  tab-size: 4;
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  -webkit-tap-highlight-color: transparent;
-}
-
-body {
-  margin: 0;
-  undefined: undefined;
-  line-height: inherit;
-}
-
-hr {
-  height: 0;
-  undefined: undefined;
-  color: inherit;
-  border-top-width: 1px;
-}
-
-abbr:where([title]) {
-  text-decoration: underline dotted;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-b,
-strong {
-  font-weight: bolder;
-}
-
-code,
-kbd,
-samp,
-pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  undefined: undefined;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  font-size: 1em;
-}
-
-small {
-  font-size: 80%;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-table {
-  text-indent: 0;
-  undefined: undefined;
-  border-color: inherit;
-  border-collapse: collapse;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  undefined: undefined;
-  font-feature-settings: inherit;
-  font-variation-settings: inherit;
-  font-size: 100%;
-  font-weight: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  color: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-input:where([type='button']),
-input:where([type='reset']),
-input:where([type='submit']) {
-  -webkit-appearance: button;
-  undefined: undefined;
-  background-color: transparent;
-  background-image: none;
-}
-
-:-moz-focusring {
-  outline: auto;
-}
-
-:-moz-ui-invalid {
-  box-shadow: none;
-}
-
-progress {
-  vertical-align: baseline;
-}
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-[type='search'] {
-  -webkit-appearance: textfield;
-  undefined: undefined;
-  outline-offset: -2px;
-}
-
-::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  undefined: undefined;
-  font: inherit;
-}
-
-summary {
-  display: list-item;
-}
-
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
-  margin: 0;
-}
-
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-legend {
-  padding: 0;
-}
-
-ol,
-ul,
-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-dialog {
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-input::placeholder,
-textarea::placeholder {
-  opacity: 1;
-  undefined: undefined;
-  color: #9ca3af;
-}
-
-button,
-[role="button"] {
-  cursor: pointer;
-}
-
-:disabled {
-  cursor: default;
-}
-
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
-  display: block;
-  undefined: undefined;
-  vertical-align: middle;
-}
-
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-[hidden] {
-  display: none;
-}
-
-.cls-o852zs {
-  font-family: Inter;
-}
-
-.site-header {
-  width: 100%;
-  position: sticky;
-  top: 0px;
-  z-index: 50;
-  background-color: rgb(255 255 255 / 0.85);
-  backdrop-filter: blur(8px);
-  border-bottom-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.header-container {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.brand-link {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.brand-mark {
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 9999px;
-  background-image: linear-gradient(to top right, #0f172a, rgb(15 23 42 / 0));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(255 255 255 / 1);
-  font-weight: 700;
-}
-
-.brand-text {
-  line-height: 1.25;
-}
-
-.cls-h1zy9k {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.025em;
-}
-
-.cls-duin1h {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.primary-navigation {
-  display: none;
-  align-items: center;
-  gap: 2rem;
-}
-
-.nav-link {
-  color: rgb(51 65 85 / 1);
-  text-underline-offset: 4px;
-}
-
-.nav-link:hover {
-  color: rgb(15 23 42 / 1);
-  text-decoration-line: underline;
-}
-
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.header-cta {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-}
-
-.header-cta:hover {
-  opacity: 0.9;
-}
-
-.header-cta:focus-visible {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
-}
-
-.header-cta:focus-visible:focus-visible {
-  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(4px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
-}
-
-.mobile-menu-button {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.mobile-menu-button:hover {
-  border-color: rgb(148 163 184 / 1);
-}
-
-.mobile-menu-button:focus-visible {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
-}
-
-.mobile-menu-button:focus-visible:focus-visible {
-  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(4px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
-}
-
-.cls-11dogm {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.mobile-menu-panel {
-  display: none;
-  border-top-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-648le2 {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.mobile-nav-link {
-  color: rgb(30 41 59 / 1);
-}
-
-.mobile-nav-link:hover {
-  color: rgb(29 78 216 / 1);
-}
-
-.hero-section {
-  position: relative;
-}
-
-.cls-nz8q4p {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 3rem;
-  align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.cls-409d5i {
-  color: rgb(71 85 105 / 1);
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.cls-n7y4t2 {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.primary-cta {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.primary-cta:hover {
-  opacity: 0.9;
-}
-
-.cls-ty3grp {
-  width: 1rem;
-  height: 1rem;
-}
-
-.secondary-cta {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-  color: rgb(30 41 59 / 1);
-}
-
-.secondary-cta:hover {
-  color: rgb(15 23 42 / 1);
-  border-color: rgb(148 163 184 / 1);
-}
-
-.cls-queh6g {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  padding-top: 0.5rem;
-}
-
-.stats-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-}
-
-.cls-a2pc0c {
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-top: 0.25rem;
-}
-
-.cls-txsqom {
-  font-weight: 600;
-}
-
-.cls-9bj4th {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-kpwewp {
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-top: 0.25rem;
-}
-
-.cls-acq0jd {
-  font-weight: 600;
-}
-
-.cls-xetz9a {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.hero-media {
-  position: relative;
-  border-radius: 1rem;
-  overflow: hidden;
-  box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-boe2w2 {
-  width: 100%;
-  height: 480px;
-  object-fit: cover;
-}
-
-.cls-maz2r7 {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background-image: linear-gradient(to top, rgb(0 0 0 / 0.6), rgb(0 0 0 / 0));
-  padding: 1.5rem;
-  color: rgb(255 255 255 / 1);
-}
-
-.cls-mg1ztk {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  opacity: 0.9;
-}
-
-.about-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  border-top-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-cwbn6o {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 3rem;
-  align-items: flex-start;
-}
-
-.about-portrait {
-  grid-column: span 1 / span 1;
-}
-
-.cls-v6tuah {
-  border-radius: 1rem;
-  overflow: hidden;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-h9tsxv {
-  width: 100%;
-  height: 420px;
-  object-fit: cover;
-}
-
-.about-content {
-  grid-column: span 2 / span 2;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.cls-acydvj {
-  color: rgb(51 65 85 / 1);
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.cls-xg87nn {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
-}
-
-.about-fact {
-  padding: 1rem;
-  border-radius: 0.75rem;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-ahrysk {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-yrqydn {
-  font-weight: 600;
-  margin-top: 0.25rem;
-}
-
-.cls-aok442 {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-u37684 {
-  font-weight: 600;
-  margin-top: 0.25rem;
-}
-
-.cls-z2nyye {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-sodug2 {
-  font-weight: 600;
-  margin-top: 0.25rem;
-}
-
-.cls-r3dnq8 {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.download-cv {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-  color: rgb(30 41 59 / 1);
-  font-weight: 600;
-}
-
-.download-cv:hover {
-  border-color: rgb(148 163 184 / 1);
-}
-
-.contact-cta {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-}
-
-.contact-cta:hover {
-  opacity: 0.9;
-}
-
-.projects-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  border-top-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-u3ve3k {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.cls-27d387 {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
-.cls-bl3jl5 {
-  color: rgb(71 85 105 / 1);
-  margin-top: 0.25rem;
-}
-
-.cls-pq81j6 {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.filter-button {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-  color: rgb(30 41 59 / 1);
-}
-
-.filter-button:hover {
-  border-color: rgb(148 163 184 / 1);
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 2rem;
-}
-
-.project-card {
-  border-radius: 1rem;
-  overflow: hidden;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-  cursor: pointer;
-}
-
-.project-card:hover {
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-dl3qu9 {
-  position: relative;
-}
-
-.cls-2wsmc0 {
-  width: 100%;
-  height: 16rem;
-  object-fit: cover;
-}
-
-.cls-wgy30u {
-  position: absolute;
-  inset: 0px;
-  background-color: rgb(0 0 0 / 0);
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.cls-lqu4ov {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cls-z936yv {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cls-5gme29 {
-  font-weight: 600;
-}
-
-.cls-dkmy03 {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-0tf6uy {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: rgb(71 85 105 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-8bv1sh {
-  width: 1rem;
-  height: 1rem;
-}
-
-.cls-1dwbs3 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding-top: 0.25rem;
-}
-
-.cls-cp2bsa {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 9999px;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-19g23n {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 9999px;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-spfvqf {
-  position: relative;
-}
-
-.cls-doktqt {
-  width: 100%;
-  height: 16rem;
-  object-fit: cover;
-}
-
-.cls-70q34x {
-  position: absolute;
-  inset: 0px;
-  background-color: rgb(0 0 0 / 0);
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.cls-byk1k7 {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cls-2tfocx {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cls-2dfgql {
-  font-weight: 600;
-}
-
-.cls-wjyw2t {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-5ioylj {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: rgb(71 85 105 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-kwf9i6 {
-  width: 1rem;
-  height: 1rem;
-}
-
-.cls-dvssqg {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding-top: 0.25rem;
-}
-
-.cls-iwawb0 {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 9999px;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-zcgr81 {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 9999px;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-jbbdyd {
-  position: relative;
-}
-
-.cls-07n8v6 {
-  width: 100%;
-  height: 16rem;
-  object-fit: cover;
-}
-
-.cls-n4gt2p {
-  position: absolute;
-  inset: 0px;
-  background-color: rgb(0 0 0 / 0);
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.cls-e6qfaz {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cls-y6goud {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cls-6ci7yj {
-  font-weight: 600;
-}
-
-.cls-dln72q {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-0ljbjd {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: rgb(71 85 105 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-d4cfhh {
-  width: 1rem;
-  height: 1rem;
-}
-
-.cls-o4qzgr {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding-top: 0.25rem;
-}
-
-.cls-8z1tyw {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 9999px;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-gx48jr {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 9999px;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-o38518 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0.5rem;
-}
-
-.load-more {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-  color: rgb(30 41 59 / 1);
-}
-
-.load-more:hover {
-  border-color: rgb(148 163 184 / 1);
-}
-
-.awards-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  border-top-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-kgkox9 {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-}
-
-.cls-6yhti0 {
-  color: rgb(71 85 105 / 1);
-  margin-top: 0.25rem;
-}
-
-.timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.timeline-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.25rem;
-}
-
-.cls-tp37ij {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  background-color: rgb(15 23 42 / 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cls-k1w2aj {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-avst49 {
-  flex: 1 1 0%;
-  border-bottom-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-  padding-bottom: 1.5rem;
-}
-
-.cls-ybsmu9 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cls-9w94y1 {
-  font-weight: 600;
-}
-
-.cls-l9vqjf {
-  color: rgb(100 116 139 / 1);
-}
-
-.cls-ibhhgc {
-  color: rgb(71 85 105 / 1);
-  margin-top: 0.25rem;
-}
-
-.cls-5w4z4w {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  background-color: rgb(15 23 42 / 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cls-camu0b {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-3ggazv {
-  flex: 1 1 0%;
-  border-bottom-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-  padding-bottom: 1.5rem;
-}
-
-.cls-mw5f2i {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cls-zud3tc {
-  font-weight: 600;
-}
-
-.cls-6v5a59 {
-  color: rgb(100 116 139 / 1);
-}
-
-.cls-a1p6ev {
-  color: rgb(71 85 105 / 1);
-  margin-top: 0.25rem;
-}
-
-.cls-y7w5sp {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  background-color: rgb(15 23 42 / 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cls-ipa9zy {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-336msq {
-  flex: 1 1 0%;
-}
-
-.cls-o7pgna {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cls-ue3n5l {
-  font-weight: 600;
-}
-
-.cls-87zyxj {
-  color: rgb(100 116 139 / 1);
-}
-
-.cls-p9k9sq {
-  color: rgb(71 85 105 / 1);
-  margin-top: 0.25rem;
-}
-
-.contact-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  border-top-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-eouq0l {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 3rem;
-  align-items: flex-start;
-}
-
-.contact-details {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.cls-uq19h8 {
-  color: rgb(71 85 105 / 1);
-}
-
-.cls-t75edc {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  color: rgb(30 41 59 / 1);
-}
-
-.contact-item:hover {
-  color: rgb(29 78 216 / 1);
-}
-
-.cls-twbzno {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-8qptlp {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-skrv4y {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding-top: 0.5rem;
-}
-
-.social-link {
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.social-link:hover {
-  border-color: rgb(148 163 184 / 1);
-}
-
-.cls-w5112p {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-acmk5p {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-ficb3h {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-91zj6o {
-  border-radius: 1rem;
-  overflow: hidden;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-qehj2j {
-  width: 100%;
-  height: 14rem;
-  object-fit: cover;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-  background-color: rgb(255 255 255 / 1);
-}
-
-.cls-edyf18 {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.cls-dv2l99 {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  background-color: rgb(37 99 235 / 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cls-0rhpdx {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-l560eo {
-  font-weight: 600;
-}
-
-.cls-79ivei {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.cls-xxwryt {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cls-krfn0c {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: rgb(51 65 85 / 1);
-}
-
-.cls-ko2rsq {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cls-w6q0hg {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: rgb(51 65 85 / 1);
-}
-
-.cls-sm1t7h {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cls-c2aybr {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: rgb(51 65 85 / 1);
-}
-
-.cls-7c1s8s {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.cls-7v2gdc {
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 0.375rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-  accent-color: #2563eb;
-}
-
-.cls-6gtqyq {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: rgb(51 65 85 / 1);
-}
-
-.cls-72qm6v {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-}
-
-.cls-72qm6v:hover {
-  opacity: 0.9;
-}
-
-.cls-4q2kg2 {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  color: rgb(100 116 139 / 1);
-}
-
-.site-footer {
-  border-top-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-svaz5l {
-  max-width: 72rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cls-rotopu {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.cls-cobywd {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 0.5rem;
-  background-color: rgb(15 23 42 / 1);
-  color: rgb(255 255 255 / 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-}
-
-.cls-gblchg {
-  color: rgb(71 85 105 / 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.cls-any8pm {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.footer-link:hover {
-  text-decoration-line: underline;
-}
-
-.project-modal {
-  position: fixed;
-  inset: 0px;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(0 0 0 / 0.6);
-  padding: 1.5rem;
-}
-
-.cls-fkesfj {
-  max-width: 64rem;
-  width: 100%;
-  border-radius: 1rem;
-  background-color: rgb(255 255 255 / 1);
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-  overflow: hidden;
-}
-
-.cls-y59lme {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-bottom-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-fooi00 {
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.cls-nwouql {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cls-nwouql:hover {
-  border-color: rgb(148 163 184 / 1);
-}
-
-.cls-b1ex7y {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.cls-w7dd34 {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0px;
-}
-
-.cls-c8pw7j {
-  grid-column: span 2 / span 2;
-  border-right-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-305ff1 {
-  position: relative;
-}
-
-.cls-xymg30 {
-  width: 100%;
-  height: 440px;
-  object-fit: cover;
-}
-
-.cls-4abprz {
-  position: absolute;
-  inset: 0px;
-  pointer-events: none;
-}
-
-.cls-g4094v {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  display: flex;
-  align-items: center;
-  padding: 0.75rem;
-}
-
-.cls-riszmi {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  background-color: rgb(255 255 255 / 0.9);
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cls-riszmi:hover {
-  background-color: rgb(255 255 255 / 1);
-}
-
-.cls-y8fxqx {
-  width: 1rem;
-  height: 1rem;
-}
-
-.cls-2buwsx {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  display: flex;
-  align-items: center;
-  padding: 0.75rem;
-}
-
-.cls-gqwdla {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  background-color: rgb(255 255 255 / 0.9);
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cls-gqwdla:hover {
-  background-color: rgb(255 255 255 / 1);
-}
-
-.cls-k0i5kb {
-  width: 1rem;
-  height: 1rem;
-}
-
-.cls-5shci8 {
-  grid-column: span 1 / span 1;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.cls-4yl5r0 {
-  color: rgb(51 65 85 / 1);
-}
-
-.cls-8yl1z1 {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-}
-
-.cls-el8yv8 {
-  padding: 0.75rem;
-  border-radius: 0.75rem;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-xgd7zz {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.cls-bbqqkv {
-  font-weight: 600;
-}
-
-.cls-g4fgzq {
-  padding: 0.75rem;
-  border-radius: 0.75rem;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-1vf1l0 {
-  color: rgb(100 116 139 / 1);
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.cls-xqhjrh {
-  font-weight: 600;
-}
-
-.cls-d2e4xn {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding-top: 0.5rem;
-}
-
-.cls-iff2z4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-}
-
-.cls-iff2z4:hover {
-  opacity: 0.9;
-}
-
-.cls-11jonh {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(203 213 225 / 1);
-}
-
-.cls-11jonh:hover {
-  border-color: rgb(148 163 184 / 1);
-}
-
-.cls-jioycw {
-  padding-top: 0.5rem;
-}
-
-.cls-a6w2nd {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: rgb(100 116 139 / 1);
-  margin-bottom: 0.5rem;
-}
-
-.cls-jpmic9 {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  overflow-x: auto;
-}
-
-.cls-tth758 {
-  width: 5rem;
-  height: 4rem;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-iz220n {
-  width: 5rem;
-  height: 4rem;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-.cls-43znop {
-  width: 5rem;
-  height: 4rem;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-color: rgb(226 232 240 / 1);
-}
-
-#ivjrwk {
-  transform: scaleX(-1);
-}
-
-@media (max-width: 992px) {
-  .primary-navigation {
-    display: none;
-  }
-
-  .mobile-menu-button {
-    display: inline-flex;
-  }
-
-  .mobile-menu-panel {
-    display: none;
-  }
-
-  .cls-nz8q4p {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .cls-cwbn6o {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .cls-xg87nn {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .cls-27d387 {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .projects-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .cls-eouq0l {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .cls-79ivei {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .cls-svaz5l {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .cls-w7dd34 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .cls-c8pw7j {
-    border-right-width: 0px;
-  }
-}
-
-@media (max-width: 480px) {
-  .cls-xg87nn {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .projects-grid {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-}
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <title>Architecture Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow">
+    <meta name="generator" content="GrapesJS Studio">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Playfair+Display:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="gjs-t-body cls-o852zs">
+    <header class="site-header" id="idqop">
+      <div class="header-container" id="ik29w">
+        <a href="#" class="brand-link" id="iabef">
+          <div class="brand-mark" id="it06i">A</div>
+          <div class="brand-text" id="iezbp">
+            <div class="cls-h1zy9k" id="i857l">Atelier Arc</div>
+            <div class="cls-duin1h" id="isonf">Architecture &amp; Urban Design</div>
+          </div>
+        </a>
+        <nav class="primary-navigation" id="iu0ie">
+          <a href="#portfolio" class="nav-link" id="ioyio">포트폴리오</a>
+          <a href="#about" class="nav-link" id="ij8sr">소개</a>
+          <a href="#awards" class="nav-link" id="i607p">수상/전시</a>
+          <a href="#contact" class="nav-link" id="i7242">연락처</a>
+        </nav>
+        <div class="header-actions" id="iovai">
+          <a href="#contact" class="gjs-t-button header-cta" id="iqm7f">프로젝트 문의</a>
+          <button type="button" id="menuBtn" aria-controls="mobileMenu" aria-expanded="false" class="mobile-menu-button">
+            <img alt="메뉴" src="https://api.iconify.design/lucide-menu.svg?color=%23121a2a" class="cls-11dogm" id="ik6zc" />
+          </button>
+        </div>
+      </div>
+      <div id="mobileMenu" class="mobile-menu-panel">
+        <div class="cls-648le2" id="ib11o">
+          <a href="#portfolio" class="mobile-nav-link" id="i4kl6">포트폴리오</a>
+          <a href="#about" class="mobile-nav-link" id="ih7tr">소개</a>
+          <a href="#awards" class="mobile-nav-link" id="i9dex">수상/전시</a>
+          <a href="#contact" class="mobile-nav-link" id="inm2q">연락처</a>
+        </div>
+      </div>
+    </header>
+    <main id="ikzs1">
+      <section class="hero-section" id="icwau">
+        <div class="cls-nz8q4p" id="ik1jw">
+          <div class="hero-text" id="iqtv2">
+            <h1 class="gjs-t-h1 cls-v49u09" id="ihmea">
+              공간을 통해 도시와 사람을 잇다
+            </h1>
+            <p class="cls-409d5i" id="i6g4k">
+              기능과 미감을 넘어, 지속가능한 맥락을 설계합니다. 주거·문화·공공 프로젝트 전반의 리서치 기반 설계를 제안합니다.
+            </p>
+            <div class="cls-n7y4t2" id="ikq65">
+              <a href="#portfolio" class="gjs-t-button primary-cta" id="inny9">
+                포트폴리오 보기
+                <img alt="" src="https://api.iconify.design/lucide-arrow-right.svg?color=white" class="cls-ty3grp" id="iv7kx" />
+              </a>
+              <a href="#about" class="secondary-cta" id="iki45">
+                스튜디오 소개
+              </a>
+            </div>
+            <div class="cls-queh6g" id="ijeoi">
+              <div class="stats-item" id="iwwf9">
+                <img alt="" src="https://api.iconify.design/lucide-award.svg?color=%23334155" class="cls-a2pc0c" id="i6mtj" />
+                <div id="i09ls">
+                  <div class="cls-txsqom" id="iy4fg">12+ Awards</div>
+                  <div class="cls-9bj4th" id="iytql">국내외 수상 및 전시</div>
+                </div>
+              </div>
+              <div class="stats-item" id="im5sd">
+                <img alt="" src="https://api.iconify.design/lucide-calendar.svg?color=%23334155" class="cls-kpwewp" id="iz0yj" />
+                <div id="ilmhd">
+                  <div class="cls-acq0jd" id="iy9o1">10년+</div>
+                  <div class="cls-xetz9a" id="ii419">프로젝트 경험</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-media" id="iyshz">
+            <img src="https://app.grapesjs.com/api/assets/random-image?query=modern%20architecture&amp;w=1200&amp;h=800" alt="대표 프로젝트 외관" class="cls-boe2w2" id="ihd9j" />
+            <div class="cls-maz2r7" id="ishj4">
+              <div class="cls-mg1ztk" id="iooav">Seaside Museum Extension, 2024</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <div class="cls-cwbn6o" id="ioojk">
+          <div class="about-portrait" id="io4mf">
+            <div class="cls-v6tuah" id="i80xo">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=architect%20portrait&amp;w=800&amp;h=900" alt="건축가 프로필 사진" class="cls-h9tsxv" id="iyvck" />
+            </div>
+          </div>
+          <div class="about-content" id="ihh7h">
+            <h2 class="gjs-t-h2 cls-nfjrua" id="i983p">스튜디오 소개</h2>
+            <p class="cls-acydvj" id="igi7q">
+              Atelier Arc는 맥락성, 재료의 정직성, 환경적 지속가능성을 핵심 가치로 삼습니다. 다양한 규모의 프로젝트에서 리서치와 프로토타이핑, 협업을 통해 가장 적합한 해법을 도출합니다.
+            </p>
+            <div class="cls-xg87nn" id="ivepl">
+              <div class="about-fact" id="ikqfe">
+                <div class="cls-ahrysk" id="ixctw">전문 분야</div>
+                <div class="cls-yrqydn" id="iuavg">주거·문화·공공</div>
+              </div>
+              <div class="about-fact" id="ioaa4">
+                <div class="cls-aok442" id="icryf">설립</div>
+                <div class="cls-u37684" id="ipm0hc">2015, Seoul</div>
+              </div>
+              <div class="about-fact" id="itzxny">
+                <div class="cls-z2nyye" id="i280tr">연구 테마</div>
+                <div class="cls-sodug2" id="i9lokf">Low-Carbon &amp; Modular</div>
+              </div>
+            </div>
+            <div class="cls-r3dnq8" id="iu0yow">
+              <a href="#" class="download-cv" id="ieyx6j">프로필 다운로드</a>
+              <a href="#contact" class="gjs-t-button contact-cta" id="i3ff4r">협업 제안</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="projects-section">
+        <div class="cls-u3ve3k" id="i8r68n">
+          <div class="cls-27d387" id="ixsmaf">
+            <div id="i3xglf">
+              <h2 class="gjs-t-h2 cls-v945ma" id="ivj9kj">프로젝트</h2>
+              <p class="cls-bl3jl5" id="ia7m53">선별된 작업들을 소개합니다.</p>
+            </div>
+            <div class="cls-pq81j6" id="i2gp5k">
+              <button type="button" class="filter-button" id="i8wg9c">All</button>
+              <button type="button" class="filter-button" id="ixme4j">Residential</button>
+              <button type="button" class="filter-button" id="i5a59w">Cultural</button>
+              <button type="button" class="filter-button" id="i0gwx8">Public</button>
+            </div>
+          </div>
+          <div class="projects-grid" id="ib8igv">
+            <article data-project="Sea Museum" data-images="modern%20museum,concrete%20interior,coastal%20architecture" data-description="해안선의 곡선을 반영한 증축 프로젝트. 현장 콘크리트와 재활용 유리를 사용." class="group project-card" id="iqol3z">
+              <div class="cls-dl3qu9" id="iytngf">
+                <img src="https://app.grapesjs.com/api/assets/random-image?query=coastal%20museum&amp;w=1200&amp;h=900" alt="Seaside Museum Extension 외관" class="cls-2wsmc0" id="icr5r9" />
+                <div class="group-hover:bg-black/35 cls-wgy30u" id="i0inwx"></div>
+              </div>
+              <div class="cls-lqu4ov" id="i9q8x1">
+                <div class="cls-z936yv" id="i9yn5j">
+                  <h3 class="cls-5gme29" id="id40rh">Seaside Museum Extension</h3>
+                  <span class="cls-dkmy03" id="i003cb">2024</span>
+                </div>
+                <div class="cls-0tf6uy" id="ic7b5q">
+                  <img alt="" src="https://api.iconify.design/lucide-map-pin.svg?color=%23566" class="cls-8bv1sh" id="ikqzcy" />
+                  Busan, KR
+                </div>
+                <div class="cls-1dwbs3" id="ibbd25">
+                  <span class="cls-cp2bsa" id="ixtbpk">Cultural</span>
+                  <span class="cls-19g23n" id="ivbela">Adaptive Reuse</span>
+                </div>
+              </div>
+            </article>
+            <article data-project="Hill House" data-images="wood%20house,modern%20stairs,zen%20interior" data-description="경사지 위 목조 주택. 패시브 디자인과 모듈러 요소를 결합." class="group project-card" id="it71aj">
+              <div class="cls-spfvqf" id="i1hgul">
+                <img src="https://app.grapesjs.com/api/assets/random-image?query=timber%20residence&amp;w=1200&amp;h=900" alt="Hill House 외관" class="cls-doktqt" id="inwzeh" />
+                <div class="group-hover:bg-black/35 cls-70q34x" id="i2pb4g"></div>
+              </div>
+              <div class="cls-byk1k7" id="iu5lz5">
+                <div class="cls-2tfocx" id="iy5cjc">
+                  <h3 class="cls-2dfgql" id="isemsx">Hill House</h3>
+                  <span class="cls-wjyw2t" id="iovzfz">2023</span>
+                </div>
+                <div class="cls-5ioylj" id="izxtff">
+                  <img alt="" src="https://api.iconify.design/lucide-map-pin.svg?color=%23566" class="cls-kwf9i6" id="iqsjzl" />
+                  Wonju, KR
+                </div>
+                <div class="cls-dvssqg" id="i8odsp">
+                  <span class="cls-iwawb0" id="i3x3v4">Residential</span>
+                  <span class="cls-zcgr81" id="irpk42">Passive</span>
+                </div>
+              </div>
+            </article>
+            <article data-project="River Library" data-images="river%20library,reading%20hall,concrete%20facade" data-description="강변 공공 도서관. 빛의 확산과 도시 연결성을 고려한 열린 내부." class="group project-card" id="igfrcg">
+              <div class="cls-jbbdyd" id="id803h">
+                <img src="https://app.grapesjs.com/api/assets/random-image?query=public%20library%20architecture&amp;w=1200&amp;h=900" alt="River Library 외관" class="cls-07n8v6" id="i3p8ta" />
+                <div class="group-hover:bg-black/35 cls-n4gt2p" id="irv9s5"></div>
+              </div>
+              <div class="cls-e6qfaz" id="iusbby">
+                <div class="cls-y6goud" id="i692tg">
+                  <h3 class="cls-6ci7yj" id="ibw0kp">River Library</h3>
+                  <span class="cls-dln72q" id="iny8x9">2022</span>
+                </div>
+                <div class="cls-0ljbjd" id="i4e0rj">
+                  <img alt="" src="https://api.iconify.design/lucide-map-pin.svg?color=%23566" class="cls-d4cfhh" id="ixzhpp" />
+                  Daejeon, KR
+                </div>
+                <div class="cls-o4qzgr" id="i0r2jy">
+                  <span class="cls-8z1tyw" id="ikow04">Public</span>
+                  <span class="cls-gx48jr" id="isf1fb">Cultural</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="cls-o38518" id="iy8h2v">
+            <button type="button" class="load-more" id="i49zq1">더 보기</button>
+          </div>
+        </div>
+      </section>
+      <section id="awards" class="awards-section">
+        <div class="cls-kgkox9" id="im1ntl">
+          <div id="im855i">
+            <h2 class="gjs-t-h2 cls-3lqsa0" id="i9b3vk">수상 및 전시</h2>
+            <p class="cls-6yhti0" id="itfjan">프로젝트의 성과와 여정을 기록합니다.</p>
+          </div>
+          <div class="timeline" id="i3btaa">
+            <div class="timeline-item" id="i6kjyl">
+              <div class="cls-tp37ij" id="in3n4i">
+                <img alt="" src="https://api.iconify.design/lucide-award.svg?color=white" class="cls-k1w2aj" id="iv2ldm" />
+              </div>
+              <div class="cls-avst49" id="iwj5rh">
+                <div class="cls-ybsmu9" id="ita0ve">
+                  <div class="cls-9w94y1" id="ibgjvq">KAA Award — Cultural Architecture</div>
+                  <div class="cls-l9vqjf" id="i5culh">2024</div>
+                </div>
+                <div class="cls-ibhhgc" id="iyb48e">Seaside Museum Extension, 부산시립미술관</div>
+              </div>
+            </div>
+            <div class="timeline-item" id="izkbod">
+              <div class="cls-5w4z4w" id="idx7c1">
+                <img alt="" src="https://api.iconify.design/lucide-award.svg?color=white" class="cls-camu0b" id="i655qb" />
+              </div>
+              <div class="cls-3ggazv" id="ihwnhs">
+                <div class="cls-mw5f2i" id="ib13ox">
+                  <div class="cls-zud3tc" id="if3xc1">UIA Pavilion Exhibition</div>
+                  <div class="cls-6v5a59" id="icnm7i">2023</div>
+                </div>
+                <div class="cls-a1p6ev" id="ik1tab">Low-Carbon Modular System 전시</div>
+              </div>
+            </div>
+            <div class="timeline-item" id="i6um7k">
+              <div class="cls-y7w5sp" id="i9ze0t">
+                <img alt="" src="https://api.iconify.design/lucide-award.svg?color=white" class="cls-ipa9zy" id="iy1e15" />
+              </div>
+              <div class="cls-336msq" id="i9424y">
+                <div class="cls-o7pgna" id="ix7x49">
+                  <div class="cls-ue3n5l" id="i4jyuj">Seoul Design Week Talk</div>
+                  <div class="cls-87zyxj" id="itop4c">2022</div>
+                </div>
+                <div class="cls-p9k9sq" id="ir9tvg">도시 공공성에 대한 강연 및 패널 토크</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="cls-eouq0l" id="i7ssgz">
+          <div class="contact-details" id="i446wq">
+            <h2 class="gjs-t-h2 cls-giwpqb" id="ifpvpc">연락하기</h2>
+            <p class="cls-uq19h8" id="ia4b2n">프로젝트 상담 및 협업 제안은 아래 연락처 또는 폼을 통해 문의해주세요.</p>
+            <div class="cls-t75edc" id="ipjy8u">
+              <a href="mailto:studio@atelier-arc.com" class="contact-item" id="ifed6m">
+                <img alt="" src="https://api.iconify.design/lucide-mail.svg?color=%23121a2a" class="cls-twbzno" id="iyv156" />
+                studio@atelier-arc.com
+              </a>
+              <a href="tel:+821012345678" class="contact-item" id="i2thil">
+                <img alt="" src="https://api.iconify.design/lucide-phone.svg?color=%23121a2a" class="cls-8qptlp" id="irglag" />
+                +82 10-1234-5678
+              </a>
+              <div class="cls-skrv4y" id="iutos1">
+                <a href="#" aria-label="Instagram" class="social-link" id="irjyfe">
+                  <img alt="Instagram" src="https://api.iconify.design/lucide-instagram.svg?color=%23121a2a" class="cls-w5112p" id="i83d12" />
+                </a>
+                <a href="#" aria-label="Behance" class="social-link" id="i0ll6k">
+                  <img alt="Behance" src="https://api.iconify.design/lucide-behance.svg?color=%23121a2a" class="cls-acmk5p" id="isaa4f" />
+                </a>
+                <a href="#" aria-label="LinkedIn" class="social-link" id="impqsg">
+                  <img alt="LinkedIn" src="https://api.iconify.design/lucide-linkedin.svg?color=%23121a2a" class="cls-ficb3h" id="ioczte" />
+                </a>
+              </div>
+            </div>
+            <div class="cls-91zj6o" id="icw9r3">
+              <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=studio%20workspace&amp;w=1200&amp;h=800" alt="스튜디오 작업실" class="cls-qehj2j" id="ihiabn" />
+            </div>
+          </div>
+          <form method="post" action="#" class="contact-form" id="ih8ell">
+            <div class="cls-edyf18" id="iw6yhg">
+              <div class="cls-dv2l99" id="i417sm">
+                <img alt="" src="https://api.iconify.design/lucide-mail.svg?color=%232563eb" class="cls-0rhpdx" id="i11q63" />
+              </div>
+              <div class="cls-l560eo" id="i3b5fb">문의 폼</div>
+            </div>
+            <div class="cls-79ivei" id="iauv7s">
+              <div class="cls-xxwryt" id="is3pqj">
+                <label for="name" class="cls-krfn0c" id="icolzr">이름</label>
+                <input type="text" id="name" name="name" required placeholder="성함을 입력하세요" class="cls-syjknh" />
+              </div>
+              <div class="cls-ko2rsq" id="it1a9l">
+                <label for="email" class="cls-w6q0hg" id="idzgxl">이메일</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" class="cls-x4409k" />
+              </div>
+            </div>
+            <div class="cls-sm1t7h" id="ijf4hq">
+              <label for="message" class="cls-c2aybr" id="irm8j9">메시지</label>
+              <textarea id="message" name="message" rows="5" required placeholder="프로젝트 개요, 일정, 예산 등을 적어주세요" class="cls-05kqob"></textarea>
+            </div>
+            <div class="cls-7c1s8s" id="iuiuhj">
+              <input type="checkbox" id="consent" class="cls-7v2gdc" />
+              <label for="consent" class="cls-6gtqyq" id="i5j40a">개인정보 수집 및 이용에 동의합니다.</label>
+            </div>
+            <button type="submit" class="gjs-t-button cls-72qm6v" id="i9fkkp">메시지 보내기</button>
+            <div aria-live="polite" class="cls-4q2kg2" id="il2lzd">보통 1~2 영업일 내 회신드립니다.</div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" id="inzysh">
+      <div class="cls-svaz5l" id="i5t5yi">
+        <div class="cls-rotopu" id="i7t7sb">
+          <div class="cls-cobywd" id="i4w8b3">A</div>
+          <div class="cls-gblchg" id="ivh2wh">© 2026 Atelier Arc. All rights reserved.</div>
+        </div>
+        <div class="cls-any8pm" id="idufdb">
+          <a href="#portfolio" class="gjs-t-link footer-link" id="iv7o1h">포트폴리오</a>
+          <a href="#about" class="gjs-t-link footer-link" id="im41cy">소개</a>
+          <a href="#awards" class="gjs-t-link footer-link" id="ikosu1">수상/전시</a>
+          <a href="#contact" class="gjs-t-link footer-link" id="iowpmp">연락처</a>
+        </div>
+      </div>
+    </footer>
+    <div id="projectModal" class="project-modal">
+      <div role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="cls-fkesfj" id="in79tt">
+        <div class="cls-y59lme" id="is6odm">
+          <div id="modalTitle" class="cls-fooi00">Project Title</div>
+          <button type="button" id="modalClose" class="cls-nwouql">
+            <img alt="닫기" src="https://api.iconify.design/lucide-x.svg?color=%23121a2a" class="cls-b1ex7y" id="i28zel" />
+          </button>
+        </div>
+        <div class="cls-w7dd34" id="ixaf8k">
+          <div class="cls-c8pw7j" id="i3n25o">
+            <div class="cls-305ff1" id="is0ojy">
+              <img id="modalImage" src="https://app.grapesjs.com/api/assets/random-image?query=architecture&amp;w=1600&amp;h=1000" alt="프로젝트 이미지" class="cls-xymg30" />
+              <div class="cls-4abprz" id="imn9zv"></div>
+              <div class="cls-g4094v" id="i2qyrt">
+                <button type="button" id="prevImg" class="cls-riszmi">
+                  <img alt="이전" src="https://api.iconify.design/lucide-arrow-right.svg?color=%23121a2a" id="ivjrwk" class="cls-y8fxqx" />
+                </button>
+              </div>
+              <div class="cls-2buwsx" id="ipkind">
+                <button type="button" id="nextImg" class="cls-gqwdla">
+                  <img alt="다음" src="https://api.iconify.design/lucide-arrow-right.svg?color=%23121a2a" class="cls-k0i5kb" id="iov1yr" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="cls-5shci8" id="ilkh52">
+            <div id="modalDesc" class="cls-4yl5r0">프로젝트 설명이 여기에 표시됩니다.</div>
+            <div class="cls-8yl1z1" id="iaiqvk">
+              <div class="cls-el8yv8" id="i9k1aw">
+                <div class="cls-xgd7zz" id="ivitku">위치</div>
+                <div class="cls-bbqqkv" id="iubes2">—</div>
+              </div>
+              <div class="cls-g4fgzq" id="izihql">
+                <div class="cls-1vf1l0" id="i3cbnf">연도</div>
+                <div class="cls-xqhjrh" id="iecpyl">—</div>
+              </div>
+            </div>
+            <div class="cls-d2e4xn" id="i4c0oa">
+              <a href="#contact" class="gjs-t-button cls-iff2z4" id="ikmago">문의하기</a>
+              <a href="#portfolio" class="cls-11jonh" id="iro03k">전체 프로젝트</a>
+            </div>
+            <div class="cls-jioycw" id="i1nf43">
+              <div class="cls-a6w2nd" id="iwinmw">더 보기</div>
+              <div id="thumbs" class="cls-jpmic9">
+                <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=architecture%20detail&amp;w=400&amp;h=320" alt="썸네일 1" class="cls-tth758" id="io02fa" />
+                <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=concrete%20detail&amp;w=400&amp;h=320" alt="썸네일 2" class="cls-iz220n" id="ignt6n" />
+                <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=wood%20interior&amp;w=400&amp;h=320" alt="썸네일 3" class="cls-43znop" id="i46lcy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script id="ikl3cy">
+      const menuBtn = document.getElementById('menuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', () => {
+          const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+          menuBtn.setAttribute('aria-expanded', String(!expanded));
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+
+      const modal = document.getElementById('projectModal');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalImage = document.getElementById('modalImage');
+      const modalDesc = document.getElementById('modalDesc');
+      const modalClose = document.getElementById('modalClose');
+      const prevBtn = document.getElementById('prevImg');
+      const nextBtn = document.getElementById('nextImg');
+
+      let imageQueries = [];
+      let currentIndex = 0;
+
+      function openModal(card) {
+        modalTitle.textContent = card.dataset.project || 'Project';
+        modalDesc.textContent = card.dataset.description || '';
+        const imgs = (card.dataset.images || '').split(',').map(s => s.trim()).filter(Boolean);
+        imageQueries = imgs.length ? imgs : ['architecture'];
+        currentIndex = 0;
+        updateModalImage();
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+
+      function updateModalImage() {
+        const q = encodeURIComponent(imageQueries[currentIndex]);
+        modalImage.src = `https://app.grapesjs.com/api/assets/random-image?query=${q}&w=1600&h=1000`;
+      }
+
+      document.querySelectorAll('[data-gjs-name="Project Card"]').forEach(card => {
+        card.addEventListener('click', () => openModal(card));
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openModal(card);
+          }
+        });
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('role', 'button');
+        card.setAttribute('aria-label', '프로젝트 상세 보기');
+      });
+
+      modalClose.addEventListener('click', closeModal);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (!modal.classList.contains('hidden') && e.key === 'Escape') closeModal();
+      });
+      prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + imageQueries.length) % imageQueries.length;
+        updateModalImage();
+      });
+      nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % imageQueries.length;
+        updateModalImage();
+      });
+    </script>
+  </body>
+
+</html>
