@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <title>Intro &amp; Works</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow">
+    <meta name="generator" content="GrapesJS Studio">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="gjs-t-body" id="izsa1w">
+    <header class="site-header" id="i1xm96">
+      <div class="header-container" id="ijho8l">
+        <a href="#top" class="brand-link" id="islkfg">
+          <div class="brand-mark" id="imx6zk">Y</div>
+          <div class="brand-text" id="idgjm7">
+            <div class="cls-itbs42" id="ibnzha">Your Studio</div>
+            <div class="cls-89t083" id="ifk2ne">Architecture &amp; Urban Design</div>
+          </div>
+        </a>
+        <nav class="primary-navigation" id="ig41xj">
+          <a href="#about" class="header-link" id="i42zgd">소개</a>
+          <a href="#works" class="header-link" id="it0ncm">작품</a>
+          <a href="#contact" class="header-link" id="i0abuk">연락처</a>
+        </nav>
+        <div class="header-actions" id="isuj4l">
+          <a href="#works" class="gjs-t-button header-cta" id="i1c4o8">작품 보기</a>
+          <button type="button" aria-controls="mobileNav" aria-expanded="false" id="menuBtn-2" class="mobile-menu-button">
+            <img alt="메뉴" src="https://api.iconify.design/lucide-menu.svg?color=%23121a2a" class="cls-pgza6m" id="izlg5z" />
+          </button>
+        </div>
+      </div>
+      <div id="mobileNav-2" class="mobile-menu-panel">
+        <div class="cls-91i4cy" id="i2heci">
+          <a href="#about" class="mobile-link" id="i8135t">소개</a>
+          <a href="#works" class="mobile-link" id="ih8gro">작품</a>
+          <a href="#contact" class="mobile-link" id="i8ni1p">연락처</a>
+        </div>
+      </div>
+    </header>
+    <main id="top">
+      <section id="about-2" class="intro-section">
+        <div class="intro-grid" id="iubrnh">
+          <div class="intro-content" id="i8a03z">
+            <h1 class="gjs-t-h1 intro-title" id="i3mqaf">안녕하세요, 저는 Yang Daegyu 입니다.</h1>
+            <p class="intro-text" id="i45zul">
+              주거·문화·공공 프로젝트를 중심으로 공간의 맥락성과 재료의 정직성을 바탕으로 설계합니다. 단순함 속에 기능과 경험을 균형 있게 담아내는 것을 목표로 합니다.
+            </p>
+            <div class="intro-actions" id="imgxou">
+              <a href="#works" class="gjs-t-button primary-cta" id="i6mxnz">
+                작품 살펴보기
+                <img alt="" src="https://api.iconify.design/lucide-arrow-right.svg?color=white" class="cls-dhmylq" id="i6xjzc" />
+              </a>
+              <a href="#contact" class="secondary-cta" id="iby3zi">협업 문의</a>
+            </div>
+            <div class="intro-stats" id="ir7zih">
+              <div class="stat-item" id="i8resg">
+                <img alt="" src="https://api.iconify.design/lucide-award.svg?color=%23334155" class="cls-9oryor" id="ilr8tk" />
+                <div id="iwt8g1">
+                  <div class="cls-j5iwev" id="itz1aq">수상 0+</div>
+                  <div class="cls-676uth" id="iz43df">국내외 전시 및 어워드</div>
+                </div>
+              </div>
+              <div class="stat-item" id="i6n80v">
+                <img alt="" src="https://api.iconify.design/lucide-calendar.svg?color=%23334155" class="cls-vni23g" id="iumh2d" />
+                <div id="iqe7qj">
+                  <div class="cls-8wl172" id="i7vanj">경력 4년</div>
+                  <div class="cls-vy0aui" id="i8f6xi">다양한 규모 프로젝트</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="intro-media" id="i0qcjw">
+            <img src="https://cdn.grapesjs.com/workspaces/cmmnbeubgb4te12v1bdg9vasl/assets/ce887465-d054-456b-99f2-3b682ea4bde5__-2026-03-12-192709.png" alt="프로필 사진" id="idu3ez" class="cls-d3kz0y" />
+            <div class="media-caption" id="i7uf4h">Studio · Seoul, KR</div>
+          </div>
+        </div>
+      </section>
+      <section id="works-2" class="works-overview">
+        <div class="cls-v6fara" id="ipg35k">
+          <div class="works-header" id="id0khv">
+            <div id="i7g5sj">
+              <h2 class="gjs-t-h2 section-title" id="imupwg">Studies</h2>
+              <div class="cls-vhen09" id="id87dh">섹션별로 구분된 대표 작품 3개</div>
+            </div>
+          </div>
+          <div class="works-filters" id="ilcju3"></div>
+          <a href="#work-1" class="cls-7p31nw" id="iyialy">Project 01</a>
+          <a href="#work-2" class="cls-9hfflx" id="ip8nq6">Project 02</a>
+          <a href="#work-3" class="cls-u61qfn" id="i1mg62">Project 03</a>
+          <div class="works-grid" id="i90akf">
+            <a href="#work-1" class="work-card" id="i4lkp7">
+              <img src="https://cdn.grapesjs.com/workspaces/cmmnbeubgb4te12v1bdg9vasl/assets/0bdea908-cef2-43d6-bb42-2a63a15d4718__-2026-03-12-202827.png" alt="Project 01 썸네일" id="i4gqy8" class="cls-gttawu" />
+              <div class="cls-lci36n" id="ikd18g">
+                <div id="ifgnn2">
+                  <div class="cls-ibxd3z" id="inbg6c">Project 01</div>
+                  <div class="cls-8cozrp" id="igonog">Residential · 2025</div>
+                </div>
+                <img alt="" src="https://api.iconify.design/lucide-arrow-right.svg?color=%23121a2a" class="cls-mqwu1o" id="igrkph" />
+              </div>
+            </a>
+            <a href="#work-2" class="work-card" id="ic59bk">
+              <img src="https://cdn.grapesjs.com/workspaces/cmmnbeubgb4te12v1bdg9vasl/assets/eb5e419d-44e8-4fce-b282-0e25995d2369__-2026-03-12-202918.png" alt="Project 02 썸네일" id="io5ylq" class="cls-1ybn65" />
+              <div class="cls-7hbt2g" id="i12h49">
+                <div id="ifkjq9">
+                  <div class="cls-dk4ysl" id="iu1xpb">Project 02</div>
+                  <div class="cls-4yqcck" id="i9q1yk">Cultural · 2024</div>
+                </div>
+                <img alt="" src="https://api.iconify.design/lucide-arrow-right.svg?color=%23121a2a" class="cls-mnz9x1" id="ij9v3a" />
+              </div>
+            </a>
+            <a href="#work-3" class="work-card" id="i52ox4">
+              <img src="https://cdn.grapesjs.com/workspaces/cmmnbeubgb4te12v1bdg9vasl/assets/dcc7fea1-e1d6-45da-b1f8-69ad480772a4__-2026-03-12-202936.png" alt="Project 03 썸네일" id="iey8rs" class="cls-7hreuz" />
+              <div class="cls-p2f74j" id="irb0e2">
+                <div id="igr9ob">
+                  <div class="cls-v6otc5" id="ib5nil">Project 03</div>
+                  <div class="cls-qz3g8o" id="ixtxkj">Public · 2023</div>
+                </div>
+                <img alt="" src="https://api.iconify.design/lucide-arrow-right.svg?color=%23121a2a" class="cls-goty2h" id="ihntff" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="work-1" class="work-section">
+        <div class="cls-n5qfdm" id="iba5yy">
+          <div class="work-heading" id="iatmdi">
+            <div id="ik941g">
+              <h2 class="gjs-t-h2 cls-oy7p0s" id="i069zv">Project 01 — The breach</h2>
+              <div class="cls-fgj7zu" id="iceowl">Passive Timber Residence · Wonju, KR · 2025</div>
+            </div>
+            <a href="#works" class="cls-vtgr7i" id="i769tr">목록으로</a>
+          </div>
+          <div class="work-media" id="iful6j">
+            <img src="https://cdn.grapesjs.com/workspaces/cmmnbeubgb4te12v1bdg9vasl/assets/0bdea908-cef2-43d6-bb42-2a63a15d4718__-2026-03-12-202827.png" alt="Hill House 외관" id="i0ibgt" class="cls-v145dt" />
+            <div class="cls-um560j" id="i70xtq">경사지 위 목조 주택 외관</div>
+          </div>
+          <div class="work-content" id="i7joql">
+            <div class="cls-ba94aq" id="ii0y7j">
+              <p class="cls-g5o98u" id="iohe5r">
+                패시브 디자인 원칙과 모듈러 구조를 결합하여 에너지 효율을 극대화했습니다. 남향 채광, 깊은 처마, 고성능 단열재를 적용해 사계절 쾌적한 실내 환경을 제공합니다.
+              </p>
+              <div class="cls-e4yeer" id="ijnlpf">
+                <span class="cls-rk8ajd" id="iyyv7m">Residential</span>
+                <span class="cls-trzr95" id="ioubjv">Passive</span>
+                <span class="cls-gsreh6" id="izhvrm">Modular</span>
+              </div>
+            </div>
+            <aside class="cls-gv4ntn" id="iqcq13">
+              <div class="cls-mnl3w3" id="i7z67d">프로젝트 정보</div>
+              <div class="cls-srhd0i" id="i3ckzq">
+                <div class="cls-es477o" id="i6nax1">연도</div>
+                <div class="cls-50ji0a" id="i3i0i2">2025</div>
+              </div>
+              <div class="cls-es3wmj" id="i984s6">
+                <div class="cls-hhrbdn" id="i78yus">위치</div>
+                <div class="cls-fxuuwg" id="ionlpi">Wonju, KR</div>
+              </div>
+              <div class="cls-ratdkl" id="ihy81m">
+                <div class="cls-dzp2tv" id="im54ou">규모</div>
+                <div class="cls-j1xbv7" id="i9q7m3">210 m²</div>
+              </div>
+            </aside>
+          </div>
+          <div class="work-gallery" id="imi59n">
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=wood%20interior&amp;w=900&amp;h=700" alt="내부 목재 마감" class="cls-4gexa1" id="i8dpbj" />
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=modern%20stairs&amp;w=900&amp;h=700" alt="계단 디테일" class="cls-j5qi7x" id="iw66qp" />
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=zen%20interior&amp;w=900&amp;h=700" alt="거실 풍경" class="cls-o7cfbe" id="iw0h4l" />
+          </div>
+        </div>
+      </section>
+      <section id="work-2" class="work-section">
+        <div class="cls-zaoar7" id="ihtmn1">
+          <div class="work-heading" id="ixsmo6">
+            <div id="iwv4mf">
+              <h2 class="gjs-t-h2 cls-lcrg2m" id="i3c5fz">Project 02 — City, dismantled</h2>
+              <div class="cls-dje3uf" id="i03rnx">Adaptive Reuse · Busan, KR · 2024</div>
+            </div>
+            <a href="#works" class="cls-wai3h6" id="iu93bl">목록으로</a>
+          </div>
+          <div class="work-media" id="ih8b6z">
+            <img src="https://cdn.grapesjs.com/workspaces/cmmnbeubgb4te12v1bdg9vasl/assets/eb5e419d-44e8-4fce-b282-0e25995d2369__-2026-03-12-202918.png" alt="Museum 외관" id="ikwsj4" class="cls-68xliu" />
+            <div class="cls-xag0fh" id="i3ss9l">해안선 곡선을 반영한 증축</div>
+          </div>
+          <div class="work-content" id="iar1pc">
+            <div class="cls-6b9ize" id="iee48p">
+              <p class="cls-vhtykv" id="i4qbmz">
+                기존 건물의 골조를 보존하면서 재활용 유리와 현장 타설 콘크리트를 사용해 새로운 전시 동선을 구성했습니다. 수평적 파사드와 수직 코어가 뷰와 채광을 조절합니다.
+              </p>
+              <div class="cls-73arxg" id="icfbh3">
+                <span class="cls-rkxzui" id="ie94bi">Cultural</span>
+                <span class="cls-tpnikk" id="ikl7ph">Adaptive Reuse</span>
+                <span class="cls-sn8659" id="ibxqli">Low-Carbon</span>
+              </div>
+            </div>
+            <aside class="cls-k6q7zx" id="ivnied">
+              <div class="cls-74q3r6" id="iz0x4y">프로젝트 정보</div>
+              <div class="cls-xg3mqc" id="i8k744">
+                <div class="cls-bbhdxv" id="inmsn8">연도</div>
+                <div class="cls-ac2tva" id="iyns0i">2024</div>
+              </div>
+              <div class="cls-4miuno" id="inaica">
+                <div class="cls-gnu5mh" id="iu7uj9">위치</div>
+                <div class="cls-c1u6ct" id="imm525">Busan, KR</div>
+              </div>
+              <div class="cls-5o9dky" id="ixjgs2">
+                <div class="cls-tn7e3n" id="ii47id">규모</div>
+                <div class="cls-agpbry" id="id5tyr">3,200 m²</div>
+              </div>
+            </aside>
+          </div>
+          <div class="work-gallery" id="iylpfa">
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=concrete%20interior&amp;w=900&amp;h=700" alt="콘크리트 내부" class="cls-pumsrq" id="ia9ycq" />
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=glass%20facade&amp;w=900&amp;h=700" alt="유리 파사드" class="cls-xbml55" id="i9u8xt" />
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=gallery%20hall&amp;w=900&amp;h=700" alt="전시 홀" class="cls-u6ddho" id="ijtq2s" />
+          </div>
+        </div>
+      </section>
+      <section id="work-3" class="work-section">
+        <div class="cls-d0ivxp" id="ik2cbm">
+          <div class="work-heading" id="iqrfcx">
+            <div id="icj7xi">
+              <h2 class="gjs-t-h2 cls-kv71o1" id="iy9w2a">Project 03 — River Library</h2>
+              <div class="cls-fb70r1" id="ijkdk7">Public Library · Daejeon, KR · 2023</div>
+            </div>
+            <a href="#works" class="cls-zvi9jw" id="i9c7bi">목록으로</a>
+          </div>
+          <div class="work-media" id="i36yc8">
+            <img src="https://app.grapesjs.com/api/assets/random-image?query=public%20library%20architecture&amp;w=1600&amp;h=1000" alt="River Library 외관" class="cls-fybcvb" id="io37vt" />
+            <div class="cls-eljks9" id="i4lwpi">강변과 연결되는 열린 파사드</div>
+          </div>
+          <div class="work-content" id="ifwl0g">
+            <div class="cls-5zmkmv" id="i47i4b">
+              <p class="cls-1xssvn" id="inqyh5">
+                자연광의 확산과 도시 연결성을 고려해 개방형 열람홀을 중심으로 구성했습니다. 다층 보행 데크가 수변 접근성을 높여 시민의 일상적 이용을 돕습니다.
+              </p>
+              <div class="cls-6rrr58" id="iq2rxn">
+                <span class="cls-4ps1sj" id="itvvck">Public</span>
+                <span class="cls-t8wk17" id="i07w9l">Cultural</span>
+                <span class="cls-fk89lr" id="i1lk3i">Urban Link</span>
+              </div>
+            </div>
+            <aside class="cls-2bo58q" id="i9o89u">
+              <div class="cls-b7hn8c" id="i0xsxa">프로젝트 정보</div>
+              <div class="cls-e9fx5p" id="io64td">
+                <div class="cls-2d4dvb" id="i29xbg">연도</div>
+                <div class="cls-5gihbb" id="irqodc">2023</div>
+              </div>
+              <div class="cls-cdlnmu" id="i964mj">
+                <div class="cls-p2unhe" id="iw332i">위치</div>
+                <div class="cls-svnqj3" id="i22tsv">Daejeon, KR</div>
+              </div>
+              <div class="cls-f3m087" id="i4ka7p">
+                <div class="cls-yalzqd" id="izxjdj">규모</div>
+                <div class="cls-ttp4pq" id="ivl5uq">5,400 m²</div>
+              </div>
+            </aside>
+          </div>
+          <div class="work-gallery" id="iw2d7j">
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=reading%20hall&amp;w=900&amp;h=700" alt="열람 홀" class="cls-w68xe9" id="ivl7vr" />
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=boardwalk&amp;w=900&amp;h=700" alt="수변 데크" class="cls-5mfab3" id="iyga47" />
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=concrete%20facade&amp;w=900&amp;h=700" alt="콘크리트 파사드" class="cls-1wlk8f" id="iacjsh" />
+          </div>
+        </div>
+      </section>
+      <section id="contact-3" class="contact-section">
+        <div class="cls-fzlctz" id="iym0e4">
+          <div class="contact-details" id="ii8b06">
+            <h2 class="gjs-t-h2 cls-q1hfp9" id="i50qs1">연락하기</h2>
+            <p class="cls-afe1mc" id="ifv4a1">프로젝트 상담 및 협업 제안은 아래 연락처로 편하게 문의해주세요.</p>
+            <div class="cls-6b0z86" id="ir07ff">
+              <a href="mailto:studio@example.com" class="contact-item" id="i6z1zh">
+                <img alt="" src="https://api.iconify.design/lucide-mail.svg?color=%23121a2a" class="cls-pl5381" id="ia13pa" /> studio@example.com
+              </a>
+              <a href="tel:+821012345678" class="contact-item" id="iosroh">
+                <img alt="" src="https://api.iconify.design/lucide-phone.svg?color=%23121a2a" class="cls-23pqlc" id="i2erol" /> +82 10-1234-5678
+              </a>
+              <div class="cls-g08egd" id="il5kjl">
+                <a href="#" class="social-link" id="ie2vei">
+                  <img alt="Instagram" src="https://api.iconify.design/lucide-instagram.svg?color=%23121a2a" class="cls-ddo43f" id="iwsfnj" />
+                </a>
+                <a href="#" class="social-link" id="ihgjrj">
+                  <img alt="LinkedIn" src="https://api.iconify.design/lucide-linkedin.svg?color=%23121a2a" class="cls-6y562e" id="ijc08w" />
+                </a>
+                <a href="#" class="social-link" id="izh8zd">
+                  <img alt="Behance" src="https://api.iconify.design/lucide-behance.svg?color=%23121a2a" class="cls-bnoo42" id="id5juu" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-media" id="iq3igj">
+            <img loading="lazy" src="https://app.grapesjs.com/api/assets/random-image?query=studio%20workspace&amp;w=1200&amp;h=800" alt="스튜디오 사진" class="cls-gy31lk" id="i9f7dx" />
+            <div class="cls-kea4gs" id="iwvndj">작업실 · 협업 환영합니다</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" id="ibil5h">
+      <div class="footer-container" id="iy5okj">
+        <div class="footer-brand" id="iod74l">
+          <div class="cls-3mgqox" id="i2dkxn">Y</div>
+          <div class="cls-951tql" id="id17sb">© 2026 Your Studio. All rights reserved.</div>
+        </div>
+        <div class="footer-nav" id="i97id6">
+          <a href="#about" class="gjs-t-link cls-gclpev" id="iib7yu">소개</a>
+          <a href="#works" class="gjs-t-link cls-yew52o" id="iof1gs">작품</a>
+          <a href="#contact" class="gjs-t-link cls-h54n9p" id="irjnx1">연락처</a>
+        </div>
+      </div>
+    </footer>
+    <script id="i8cqwj">
+      const menuBtn = document.getElementById('menuBtn');
+      const mobileNav = document.getElementById('mobileNav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', () => {
+          const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+          menuBtn.setAttribute('aria-expanded', String(!expanded));
+          mobileNav.classList.toggle('hidden');
+        });
+      }
+    </script>
+  </body>
+
+</html>
